@@ -13,7 +13,7 @@ class SignInScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Sign In',
+      title: 'Sign Up',
       home: Scaffold(
         appBar: AppBar(),
         drawer: CommonDrawer.getDrawer(context),
@@ -80,11 +80,12 @@ class SignInScreen extends StatelessWidget {
                     child: CustomButton(
                       onPressed: () {
                         print("Login Button Pressed");
+                        String name = _nameController.text;
                         String username = _usernameController.text;
                         String password = _passwordController.text;
-                        print('Username: $username, Password: $password');
+                        print('Name: $name, Username: $username, Password: $password');
                       },
-                      text: 'Login',
+                      text: 'Sign Up',
                       color: Colors.blue,
                       textColor: Colors.white,
                       width: 40,

@@ -43,7 +43,7 @@ class HomeScreen extends StatelessWidget {
                     },
                     width: 75,
                     height: 30,
-                    text: 'Sign In',
+                    text: 'Sign Up',
                     color: Colors.orange,
                     textColor: Colors.white,
                 ),

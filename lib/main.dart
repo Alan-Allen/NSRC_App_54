@@ -3,7 +3,7 @@ import 'package:password3_54/screens/AccountScreen.dart';
 import 'package:password3_54/screens/HomeScreen.dart';
 import 'package:password3_54/screens/LoginScreen.dart';
 import 'package:password3_54/screens/Password_screen.dart';
-import 'package:password3_54/screens/SignInScreen.dart';
+import 'package:password3_54/screens/SignUpScreen.dart';
 
 void main() {
   runApp(const MyApp());
